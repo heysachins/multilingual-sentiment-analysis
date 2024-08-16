@@ -1,16 +1,16 @@
 
-# Reproducibility Study for Sentiment Analysis on Code-Mixed Malayalam-English Data
+# Sentiment Analysis on Code-Mixed Malayalam-English Data
 
-## Final Outputs
+## Project Overview
+
+This project is a reproducibility study of a sentiment analysis task on a code-mixed Malayalam-English dataset. The primary objective is to assess the reproducibility of the original study by Chakravarthi et al. (2020), focusing on human annotation and automated classification experiments. The study evaluates the challenges of replicating the original findings and explores the implications of label consistency on classifier performance.
+
+  ## Final Outputs
 
 - **[Research Paper](https://aclanthology.org/2024.humeval-1.11/)**
 - **[Poster](poster/Poster.pdf)**
 
   ![Poster Thumbnail](poster/image.jpg)
-
-## Project Overview
-
-This project is a reproducibility study of a sentiment analysis task on a code-mixed Malayalam-English dataset. The primary objective is to assess the reproducibility of the original study by Chakravarthi et al. (2020), focusing on human annotation and automated classification experiments. The study evaluates the challenges of replicating the original findings and explores the implications of label consistency on classifier performance.
 
 ## Features
 
@@ -120,6 +120,8 @@ This project is a reproducibility study of a sentiment analysis task on a code-m
 4. View the final research paper:
 
    Open the [Research Paper](https://aclanthology.org/2024.humeval-1.11/) to view the detailed research findings.
+
+ 
 
 ## License
 
