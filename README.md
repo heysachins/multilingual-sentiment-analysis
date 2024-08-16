@@ -59,8 +59,8 @@ This project is a reproducibility study of a sentiment analysis task on a code-m
   - The preprocessing steps included emoji removal and sentence length adjustments. However, discrepancies were found between the reported and actual preprocessing steps in the original study.
 
 - **Classification Models**:
-  - **Logistic Regression (LR)**: Chosen for its simplicity and high performance in the original study. Implemented in the [Logistic Regression Notebook](https://github.com/heysachins/multilingual-sentiment-analysis/blob/main/LR_OriginalAndNew_Datasets.ipynb).
-  - **BERT (Bidirectional Encoder Representations from Transformers)**: A multilingual version was used due to its ability to handle code-mixed data. Implemented in the [BERT Notebook](https://github.com/heysachins/multilingual-sentiment-analysis/blob/main/BERT_OriginalAndNew_Datasets_Updated.ipynb).
+  - **Logistic Regression (LR)**: Chosen for its simplicity and high performance in the original study. Implemented in the [Logistic Regression Notebook](notebooks/LR_OriginalAndNew_Datasets.ipynb).
+  - **BERT (Bidirectional Encoder Representations from Transformers)**: A multilingual version was used due to its ability to handle code-mixed data. Implemented in the [BERT Notebook](notebooks/BERT_OriginalAndNew_Datasets_Updated.ipynb).
 
 - **Quantitative Analysis**:
   - The study includes a detailed comparative analysis of the performance of the classifiers on the original and re-annotated corpora.
@@ -81,9 +81,9 @@ This project is a reproducibility study of a sentiment analysis task on a code-m
 ## Tools and Libraries
 
 - **Jupyter Notebooks**: Used for data analysis, preprocessing, and model implementation.
-  - **[Preprocessing Notebook](https://github.com/heysachins/multilingual-sentiment-analysis/blob/main/Prepping%20the%20Data.ipynb)**: Contains the preprocessing steps and dataset preparation.
-  - **[Logistic Regression Notebook](https://github.com/heysachins/multilingual-sentiment-analysis/blob/main/LR_OriginalAndNew_Datasets.ipynb)**: Implements and evaluates the Logistic Regression model.
-  - **[BERT Notebook](https://github.com/heysachins/multilingual-sentiment-analysis/blob/main/BERT_OriginalAndNew_Datasets_Updated.ipynb)**: Implements and evaluates the BERT model.
+  - **[Preprocessing Notebook](notebooks/Prepping%20the%20Data.ipynb)**: Contains the preprocessing steps and dataset preparation.
+  - **[Logistic Regression Notebook](notebooks/LR_OriginalAndNew_Datasets.ipynb)**: Implements and evaluates the Logistic Regression model.
+  - **[BERT Notebook](notebooks/BERT_OriginalAndNew_Datasets_Updated.ipynb)**: Implements and evaluates the BERT model.
 - **Microsoft Excel**: Employed for the manual annotation process.
 - **Python Libraries**:
   - `sklearn` for Logistic Regression.
