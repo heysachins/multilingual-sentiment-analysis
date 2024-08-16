@@ -4,7 +4,7 @@
 ## Final Outputs
 
 - **[Research Paper](https://aclanthology.org/2024.humeval-1.11/)**
-- **[Poster](poster/poster.pdf)**
+- **[Poster](poster/Poster.pdf)**
 
   ![Poster Thumbnail](poster/image.jpg)
 
@@ -37,12 +37,23 @@ This project is a reproducibility study of a sentiment analysis task on a code-m
 
 - **Re-annotated Dataset**:
   - The re-annotated test set, produced as part of this study, involves rigorous annotation steps to improve label consistency.
+  - The re-annotated dataset is available as `Re-AnnotatedDataset.xlsx`.
+
+## Annotation Process
+
+- **Stage-wise Annotation**:
+  - **Stage 1 and 2 Agreements**: Initial annotations by two annotators, with subsequent agreement checks.
+  - **Stage 3 Agreement**: Disagreements from Stage 2 were resolved by a third annotator.
+  - **Stage 4 and 5 Agreements**: Further annotations were done by additional annotators in case of disagreements.
+  - **Stage 6 Agreement**: The final set of disagreements was resolved by a sixth annotator.
+  - **Stage 7 Agreement**: Any remaining disagreements were resolved by the seventh annotator.
+  - The annotations were organized in folders such as `Stage 1 and 2 Agreements`, `Stage 3 Agreements`, etc., and are compiled in `Re-AnnotatedDataset.xlsx`.
+
+- **Annotation Process Details**:
+  - The process involved splitting the dataset into several batches, with each batch undergoing the above stages of annotation.
+  - The results of each annotation stage were recorded and analyzed to ensure consistency and accuracy.
 
 ## Methodology
-
-- **Annotation Process**:
-  - The original study's three-step annotation process was replicated and extended to a five-step process to resolve label disagreements.
-  - The annotation was performed using Microsoft Excel, with data split into batches for easier management.
 
 - **Preprocessing**:
   - The preprocessing steps included emoji removal and sentence length adjustments. However, discrepancies were found between the reported and actual preprocessing steps in the original study.
@@ -81,12 +92,13 @@ This project is a reproducibility study of a sentiment analysis task on a code-m
 
 ## Project Structure
 
-- `data/` - Folder containing the original and re-annotated datasets.
+- `data/` - Contains the original and re-annotated datasets in `.xlsx` format.
 - `notebooks/` - Jupyter notebooks for data analysis, preprocessing, and model training.
 - `poster/` - The final research paper and the poster.
   - `Paper_Submission-3.pdf` - The final research paper.
-  - `poster.pdf` - The A3 map poster.
+  - `Poster.pdf` - The A3 map poster.
   - `image.jpg` - The thumbnail image for the poster.
+- `Annotation Process/` - Contains folders for each stage of the annotation process, including disagreements and final agreements.
 - `README.md` - This file.
 
 ## How to Run the Analysis
